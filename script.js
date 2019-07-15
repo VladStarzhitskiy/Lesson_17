@@ -174,5 +174,10 @@ var a = (5, 6);
 
 console.log(a); //6
 
+let hello1 = 'Привет';
+hello1 = '11';
 
 
+let hero = 'Batman';
+console.log(`Hello, ${hero}, buy`);
+console.log(`Hello, ${hello1 + hello1}, buy`);

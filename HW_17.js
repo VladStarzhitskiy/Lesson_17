@@ -12,8 +12,8 @@ var num = 1;
  num -= 14;
  num *= 5;
  num /= 7;
- num += 1;
- num -= 1;
+ num ++;
+ num --;
 alert(num);
 
 
@@ -23,11 +23,11 @@ console.log( a + b + c );
 
 
 //#4
-var a=17; 
-var b=10;
-var c = ( a - b );
+var aa=17; 
+var bb=10;
+var cc = ( aa - bb );
 var d=7;
-var result = ( c + d );
+var result = ( cc + d );
 console.log( result );
 
 
